@@ -1,0 +1,42 @@
+.heading{
+    color: #d93025;
+    margin:25px 35px;
+    font-size: 20px;
+}
+.inputbox1{
+    margin-left: 80px;
+} 
+.inputbox2{
+    margin-left: 10px;
+} 
+.inputbox3{
+    margin-left: 53px;
+} 
+.inputbox4{
+    margin-left: 43px;
+} 
+.inputbox1,.inputbox2,.inputbox3,.inputbox4{
+    width: 300px;
+}
+.inputbox1:focus,.inputbox2:focus,.inputbox3:focus,.inputbox4:focus{
+    outline-color: rgb(52, 52, 250);
+}
+.adv-sbutton{
+    margin-top: 20px;
+    margin-left: 387px;
+    background-color:#0f6afc;
+    color: white;
+    border: none;
+    padding:4px 4px 4px 4px;
+    border-radius: 5px;
+}
+.line{
+    border-bottom: 1px solid rgb(186, 189, 192);
+    margin-bottom: 20px;
+}
+.googlesearch{
+    text-align: right;
+    margin-right: 20px;
+}
+
+

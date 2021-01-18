@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="advsearch.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="p-3 mb-2 bg-light text-dark">
+        <div class="googlesearch">
+            <a href="index.html">Google Search</a>
+        </div>
+    </div> 
+    <div class="heading">
+        <label>Advance Search</label>
+    </div>
+    <div class="line"></div>
+    <div class="field">
+        <form action="https://google.com/search">
+            <div class="d-flex flex-column">
+                <div class="p-2">
+                    <label>all these words:</label>
+                    <input type="text" name="as_q" class="inputbox1">
+                </div>
+                <div class="p-2">
+                    this exact word or phrase:
+                    <input type="text" name="as_epq" class="inputbox2">
+                </div>
+                <div class="p-2">
+                    any of these words:
+                    <input type="text" name="as_oq" class="inputbox3">
+                </div>
+                <div class="p-2">
+                    none of these words:
+                    <input type="text" name="as_eq" class="inputbox4">
+                </div>
+            </div>
+            <input class="adv-sbutton" type="submit" value="Advance Search">
+        </form>
+    </div>
+</body>
+</html>

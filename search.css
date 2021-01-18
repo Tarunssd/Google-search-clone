@@ -1,0 +1,35 @@
+.logo{
+    text-align: center;
+    margin-top: 200px;
+}
+.searchinput{
+    border: none;
+    border-radius: 25px;
+    width:600px;
+    padding:11px;
+    text-decoration-color: grey;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
+} 
+.searchinput:focus{
+    outline: none;
+}
+.logo-image{
+    margin-bottom: 20px;
+    width: 300px;
+}
+.google-sbutton{
+    margin-top: 15px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(50, 50, 235);
+    color: white;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+.Image-adv{
+    text-align: right;
+    margin-right: 10px;
+}
+.search-btns{
+    margin-left: 30px;
+}
